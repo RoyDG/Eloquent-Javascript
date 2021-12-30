@@ -1,4 +1,5 @@
 /* VALUE, TYPE, OPERATOR */
+/* there is only one value in javascript that is not equal to itself and that is NaN*/
 
 13 - Number
 13.998 - INTEGER
@@ -7,8 +8,9 @@
 "con" + "catenate" - concatenate
 `half of 100 is ${100/2}` - template_literal
 typeof , (with-single-operator) -8 - Unary_operator
-! = Not (flip_the_value )
+! - Not (flip_the_value )
 != - not_equal_to
+%  - /* JavaScript modulo operator calculates the remainder left over after dividing two numbers */
 
 And = 
     console.log(true && false) = false,
